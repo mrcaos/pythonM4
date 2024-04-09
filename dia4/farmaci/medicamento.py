@@ -30,4 +30,7 @@ class Medicamento():
 
             if self.descuento:
                 self.precio_final *= 1 - self.descuento
+                
+        else:
+            print("El valor debe ser mayor a cero")
 
