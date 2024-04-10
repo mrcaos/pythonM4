@@ -28,7 +28,7 @@ class DetalleVenta():
                 f"{i.producto}\t\t{i.cantidad}\n"
                 for i in self.__items
 ]
-return f"{retorno}{''.join(items)}"
+            return f"{retorno}{''.join(items)}"
 
 class Venta():
     def __init__(self):
