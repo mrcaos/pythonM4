@@ -6,13 +6,13 @@ nombre=input("""
 Por favor indique nombre de su personaje:
             """)
 
-p= Personaje(nombre)
+p = Personaje(nombre)
 print(p.estado)
 print("¡Oh no!, ¡Ha aparecido un Orco!")
 
 o = Personaje("orco")
 
-probabilidad_de_ganar =p.mostrar_probabilidad(o)
+probabilidad_de_ganar=p.mostrar_probabilidad(o)
 
 opcion_orco=Personaje.mostrar_dialogo_opcion(probabilidad_de_ganar)
 
