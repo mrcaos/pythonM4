@@ -95,7 +95,20 @@ class SinConexion(Basica):
 
 
 class Pro(Familiar, SinConexion):
-    pass
+    costo = 7000
+    cantidad_dispositivos = 6
+
+    def cambiar_suscripcion(self, nueva_membresia:int):
+        if nueva_membresia in [1,2,3]:
+            return self._crear_nueva_membresia(nueva_membresia)
+        else:
+            return self
+        
+    def modificar_control_parental(self):
+        pass
+
+    def incrementar_cantidad_offline(self):
+        pass
 
 g = Gratis("correo@prueba.cl", "123 456 789")
 print(type(g))
