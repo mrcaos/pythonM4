@@ -13,7 +13,7 @@ def preguntas(self):
 @preguntas.setter   
 def preguntas(self, preguntas):
         pass
-    
+
 @property
 def respuestas(self):
         self.__respuestas
@@ -26,5 +26,5 @@ def mostrar(self):
         print(f"Encuesta: {self.nombre}")
         print("***Preguntas***")
         for pregunta in self.__preguntas:
-            pregunta.mostrar()
+                pregunta.mostrar()
 
