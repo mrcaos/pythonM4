@@ -1,6 +1,6 @@
 from encuesta import Encuesta, EncuestaLimitadaEdad, EncuestaLimitadaRegion
 from usuario import Usuario
-from listado_respuestas import ListadoRespuestas
+from listaDeRespuesta import ListaDeRespuesta
 from preguntas import preguntas_simple, respuestas_simple
 
 # usuarios
